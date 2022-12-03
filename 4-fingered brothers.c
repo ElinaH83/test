@@ -49,8 +49,7 @@ int main()
     z1=basea_to_base10(base2,z1);
     int answer=z+z1;
     answer=base10_to_baseb(base2,answer);
-    printf("%d\n", answer);
-    printf("This change is for new branch" );
+    printf("%d", answer);
 
 return 0;
 }
